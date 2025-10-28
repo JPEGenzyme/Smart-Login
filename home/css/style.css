@@ -1,0 +1,21 @@
+body{
+    background-color: var(--black);
+    --blue : #17A2B8;
+    --grey : #CED4DA;
+    --black : #24353F;
+    font-family: sans-serif;
+}
+
+h1{
+    color: var(--blue);
+}
+
+button{
+    background-color: var(--black);
+    color: var(--grey) !important;
+}
+
+button:hover{
+    background-color: rgb(255, 217, 0) !important;
+    color: white !important;
+}
